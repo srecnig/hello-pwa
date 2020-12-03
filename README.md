@@ -11,10 +11,10 @@ This is a very, very simple proof-of-concept to show that [Usersnap](https://use
 
 With full internet access, Usersnap should be able to collect your feedback and render your screenshots just fine:
 
-![](./demo_homescreen.png "Home Screen")
-![](./demo_widget.png "Widget in action")
-![](./demo_after_submit.png "Widget after submit")
-![](./demo_dashboard.png "Feedback in dashboard")
+![Homescreen](./demo_homescreen.png "Home Screen")
+![Widget](./demo_widget.png "Widget in action")
+![After submit](./demo_after_submit.png "Widget after submit")
+![Dashboard](./demo_dashboard.png "Feedback in dashboard")
 
 
 ## Attributions
