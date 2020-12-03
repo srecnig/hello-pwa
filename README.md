@@ -1,25 +1,17 @@
-# Hello PWA
-The classic Hello World program as a Progressive Web App
+# Hello PWA ins Usersnap
 
-![Hello World Screenshot](./screenshot.jpg "Hello World Screenshot")
+Disclaimer: This is based on [jamesjohnson280/hello-pwa](https://github.com/jamesjohnson280/hello-pwa).
 
-## What It Is
+## What is this
 
-A simple PWA demo that displays the text "Hello, World!" utilizing an app manifest, service workers and caching. This demo is written in plain-vanilla HTML, CSS and Javascript (ES6). It has no dependencies.
+This is a very, very simple proof-of-concept to show that [Usersnap](https://usersnap.com) will work with PWAs. There are  caveats, though:
 
-I've also written a tutorial to go along with the code. Read it on Medium:
+* The Usersnap widget does not work offline, since it needs to send the feedback data to Usersnap's servers. If your PWA offers offline functionality, sending feedback will only work when you're online.
+* Handling reconnects: The naive approach in this demo app will not try to reload the widget if the initial load failed. If you open this PWA without internet connection to initialize the Usersnap widget, it will not open afterwards, even if you regained internet connection. You'll have to work around this by keeping the state of Usersnap's loading somewhere in your app.
 
-https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
+With full internet access, Usersnap should be able to collect your feedback and render your screenshots just fine:
 
-## Demo
 
-https://jamesjohnson280.github.io/hello-pwa/
 
-## Browser Compatibility
-
-Hello PWA has been tested in the following browsers:
-
-* Chrome 67 (Windows and Android)
-* Firefox 60
-* Safari 11
-* Edge 42
+## Attributions
+* [koala.jpg](https://commons.wikimedia.org/wiki/File:Friendly_Female_Koala.JPG): Quartl, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
