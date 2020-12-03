@@ -13,7 +13,6 @@ With full internet access, Usersnap should be able to collect your feedback and 
 
 ![Homescreen](./demo_homescreen.png "Home Screen")
 ![Widget](./demo_widget.png "Widget in action")
-![After submit](./demo_after_submit.png "Widget after submit")
 ![Dashboard](./demo_dashboard.png "Feedback in dashboard")
 
 
