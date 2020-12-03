@@ -21,3 +21,8 @@ html,
 .title {
   font-size: 3rem;
 }
+
+.quokka {
+  width: 50%;
+  height: 50%;
+}

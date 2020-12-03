@@ -6,3 +6,14 @@ window.onload = () => {
              .register('./sw.js');
   }
 }
+
+
+window.onUsersnapCXLoad = (api) => {
+  api.init({button: null});
+  window.Usersnap = api;
+}
+
+
+window.leaveFeedback = () => {
+  window.Usersnap.open();
+}
